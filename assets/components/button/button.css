@@ -1,0 +1,55 @@
+.nav-button {
+  display: inline-flex;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-button__title {
+  background-color: var(--black);
+  transition: background-color 0.3s;
+  padding: 24px 35px 24px 32px;
+  color: var(--white);
+  text-transform: uppercase;
+
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+}
+
+.nav-button_left {
+  flex-direction: row-reverse;
+}
+
+.nav-button_right {
+  flex-direction: row;
+}
+
+.nav-button__arrow {
+  width: 56px;
+  height: 72px;
+  background-color: var(--gold);
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button_left .nav-button__arrow::after {
+  content: url('../../icon-arrow-left.svg');
+}
+
+.nav-button_right .nav-button__arrow::after {
+  content: url('../../icon-arrow-right.svg');
+}
+
+.nav-button:hover .nav-button__title {
+  background-color: var(--gold);
+}
+
+.nav-button:hover .nav-button__arrow {
+  background-color: var(--black);
+}
