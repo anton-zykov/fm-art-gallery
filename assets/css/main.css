@@ -4,6 +4,7 @@
 @import url('/assets/components/footer/footer.css');
 @import url('/assets/components/header/header.css');
 @import url('/assets/components/main/main.css');
+@import url('/assets/components/location/location.css');
 
 :root {
   --gold: rgb(213, 150, 108);
