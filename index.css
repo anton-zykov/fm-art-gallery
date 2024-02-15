@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+@media (750px < width <= 1400px) {
+  .main {
+    margin: 0 40px;
+  }
+}
+
+@media (1400px < width) {
+  body {
+    gap: 180px;
+  }
+
+  .main {
+    margin: 0 160px;
+  }
+}
