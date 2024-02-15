@@ -78,6 +78,7 @@
     transform: translateY(100%);
     color: var(--white);
     font-feature-settings: 'clig' off, 'liga' off;
+    user-select: none;
   }
 
   .header__second-title {
@@ -88,6 +89,7 @@
     color: var(--black);
     font-feature-settings: 'clig' off, 'liga' off;
     z-index: -1;
+    user-select: none;
   }
 
   .header__image {
