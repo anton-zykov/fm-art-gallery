@@ -3,6 +3,7 @@
 @import url('/assets/components/button/button.css');
 @import url('/assets/components/footer/footer.css');
 @import url('/assets/components/header/header.css');
+@import url('/assets/components/main/main.css');
 
 :root {
   --gold: rgb(213, 150, 108);
