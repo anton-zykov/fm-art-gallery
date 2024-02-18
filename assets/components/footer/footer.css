@@ -58,15 +58,15 @@
 }
 
 .footer__social-icon_facebook {
-  mask: url('/assets/icon-facebook.svg');
+  mask: url('../../icon-facebook.svg');
 }
 
 .footer__social-icon_instagram {
-  mask: url('/assets/icon-instagram.svg');
+  mask: url('../../icon-instagram.svg');
 }
 
 .footer__social-icon_twitter {
-  mask: url('/assets/icon-twitter.svg');
+  mask: url('../../icon-twitter.svg');
 }
 
 .footer__social-icon_facebook, .footer__social-icon_instagram, .footer__social-icon_twitter {
