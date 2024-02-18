@@ -7,6 +7,27 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
+  <header class="location-header">
+    <a href="/" class="location-header__home nav-button nav-button_left">
+      <div class="nav-button__title">Back to home</div>
+      <div class="nav-button__arrow"></div>
+     </a>
+    <picture>
+      <source 
+        media="(max-width: 750px)"
+        srcset="/assets/mobile/image-map.png 1x, /assets/mobile/image-map@2x.png 2x" />
+      <source 
+        media="(max-width: 1400px)"
+        srcset="/assets/tablet/image-map.png 1x, /assets/tablet/image-map@2x.png 2x" />
+      <source 
+        media="(min-width: 1401px)"
+        srcset="/assets/desktop/image-map.png 1x, /assets/desktop/image-map@2x.png 2x" />
+      <img
+        class="location-header__map"
+        src="/assets/mobile/image-map.png"
+        alt="Gallery marked on the map." />
+    </picture>
+  </header>
   <main class="location">
     <h1 class="location__header">Our Location</h1>
     <div class="location__content">
