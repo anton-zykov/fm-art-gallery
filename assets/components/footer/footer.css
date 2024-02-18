@@ -45,8 +45,16 @@
   background-color: var(--black);
 }
 
+.footer_gold .footer__social-icon:hover {
+  background-color: var(--white);
+}
+
 .footer_black .footer__social-icon {
   background-color: var(--white);
+}
+
+.footer_black .footer__social-icon:hover {
+  background-color: var(--gold);
 }
 
 .footer__social-icon_facebook {
